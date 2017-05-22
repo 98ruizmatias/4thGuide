@@ -20,7 +20,7 @@ public class Triangle {
     }
 
     public double getBase(){return this.vertices[2].getX() - this.vertices[1].getX();}
-    public double getAltura(){return this.vertices[0].getY() - this.vertices[1].getX();}
+    public double getAltura(){return this.vertices[0].getY() - this.vertices[1].getY();}
 
 
     public double getA(){return Math.sqrt((this.vertices[0].getX() - this.vertices[1].getX())+((this.vertices[0].getY() - this.vertices[1].getY())));}
